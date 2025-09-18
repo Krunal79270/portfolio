@@ -28,6 +28,9 @@ import {
   Abhedya,
   scrap,
   archi_city,
+  nado,
+  spotter,
+  mindmatters,
   ems,
   Arga,
   elefant,
@@ -150,8 +153,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2024",
     points: [
+      "Management of the projects from start to end and leading the team upfront",
       "Development end to end applications from scracth to production using frontend and backend",
       "Managing the project with cross-functional teams including designers, testers, and other developers to create high-quality products.",
+      "Scheduling Interviews and training freshers and polish them industry fit",
       "Implementing responsive design and ensuring cross-browser compatibility."
     ],
   },
@@ -219,6 +224,69 @@ const testimonials = [
   },
 ];
 const projects = [
+  {
+    name: "Spotter",
+    description:
+      "Spotter is the uber of jobs having dynamic candidate and company dynamic onboarding with learning of courses, giving quizzes, applying for jobs and also includes marketplace.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nestjs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: spotter,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Nado",
+    description:
+      "Nado is a AI based health care assistant provider designed for doctors. it also includes many features including basic versions of whatsapp, docusign,zoom.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nado,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Mind Matters",
+    description:
+      "Mind Matters is the ticketing system platform for the event.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mindmatters,
+    source_code_link: "https://github.com/",
+  },
   {
     name: "Arga",
     description:
