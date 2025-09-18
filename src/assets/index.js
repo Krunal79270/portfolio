@@ -41,6 +41,9 @@ import tripguide from "./tripguide.png";
 import plutus from "./company/logo_plutus.jfif";
 import kryptoninc from "./company/logo_kryptoninc.jfif";
 import squad from "./company/logo_squad.jfif";
+import nado from './nado.png'
+import spotter from './spoter.png'
+import mindmatters from './mind-matters.png'
 export {
   logo,
   backend,
@@ -48,6 +51,9 @@ export {
   mobile,
   web,
   github,
+  nado,
+  spotter,
+  mindmatters,
   menu,
   close,
   plutus,
